@@ -1,12 +1,3 @@
-Absolutely — here is a **comprehensive paste-ready `README.md`** for the repo with just:
-
-* the Python script
-* the BAT file
-* the README
-
-This version is written for sharing on GitHub, includes setup, usage, alignment behavior, troubleshooting, best practices, and Windows install instructions. It is based on the current fuzzy v2 script behavior and examples you uploaded.  
-
-````md
 # CloneHeroWebmDownloader Fuzzy v2
 
 A Windows-friendly Python tool for building `video.webm` files for Clone Hero song folders using fuzzy YouTube matching and optional audio auto-alignment.
@@ -44,8 +35,6 @@ This repo only needs:
 - `CloneHeroWebmDownloader_fuzzy_v2.py`
 - `CloneHeroWebmDownloader_fuzzy_v2.bat`
 - `README.md`
-
-That is enough for a clean and simple shareable setup.
 
 ---
 
@@ -85,9 +74,9 @@ The script will use the first one it finds from this list:
 
 ---
 
-# Fresh Windows setup
+# Windows setup
 
-On a fresh Windows PC, this is the quickest setup for the scripts you’ve been using:
+On Windows, this is the quickest setup for the scripts:
 
 ```powershell
 winget install -e --id Python.Python.3.9
@@ -107,13 +96,6 @@ yt-dlp --version
 py -c "import numpy, scipy; print('numpy/scipy ok')"
 ```
 
-If you also want VS Code on the new PC:
-
-```powershell
-winget install -e --id Microsoft.VisualStudioCode
-```
-
----
 
 ## Setup notes
 
@@ -121,21 +103,6 @@ winget install -e --id Microsoft.VisualStudioCode
 * If `py` is not recognized after install, reboot once or reinstall Python and make sure the Python launcher and PATH options are enabled
 * If `python` is not recognized after install, reopen PowerShell or reboot Windows
 * If a new shell still does not see the tools, sign out and back in or restart the PC
-
----
-
-# Minimal repository layout
-
-Suggested layout:
-
-```text
-CloneHeroWebmDownloader/
-├── CloneHeroWebmDownloader_fuzzy_v2.py
-├── CloneHeroWebmDownloader_fuzzy_v2.bat
-└── README.md
-```
-
-That is all you need for a minimal GitHub repo.
 
 ---
 
@@ -221,9 +188,8 @@ You can double-click:
 CloneHeroWebmDownloader_fuzzy_v2.bat
 ```
 
-A BAT launcher is useful for people who do not want to run Python from the command line directly.
+A BAT launcher is provided for those who do not want to run Python from the command line directly. I recommend running this script from the BAT launcher :)
 
-If you share this repo with less technical users, the BAT file is usually the easiest entry point.
 
 ---
 
@@ -512,56 +478,6 @@ Fix:
 * verify the source
 * allow the tool if appropriate
 * keep your scripts in a trusted local folder
-
----
-
-# Best practices for sharing this repo
-
-## Keep the repo focused
-
-Recommended:
-
-* Python script
-* BAT launcher
-* README
-
-Avoid committing:
-
-* downloaded media
-* cookies files
-* personal logs
-* local test data
-
-## Add release notes
-
-For each major tweak, document:
-
-* what changed
-* why it changed
-* how search behavior changed
-* whether alignment logic changed
-
-## Add examples
-
-Keep example commands for:
-
-* first run
-* overwrite run
-* auto-align run
-* search-count tuning run
-
----
-
-# Suggested future enhancements
-
-* manual result selection mode
-* cookies file support for age-restricted videos
-* CSV logging
-* skip/retry lists
-* per-folder review mode
-* safer backup behavior before overwrite
-* optional channel whitelisting
-* optional official-audio bias mode
 
 ---
 
