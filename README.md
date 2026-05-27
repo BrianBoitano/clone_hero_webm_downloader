@@ -514,5 +514,3 @@ python CloneHeroWebmDownloader_fuzzy_v2.py "\\10.0.0.115\Vault\Clone Hero\01_son
 # License / disclaimer
 Use this tool responsibly. Always review outputs, especially for matching accuracy and alignment quality, before applying results across a large Clone Hero library.
 
-```
-```
