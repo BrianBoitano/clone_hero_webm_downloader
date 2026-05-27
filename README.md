@@ -1,4 +1,3 @@
-# clone_hero_webm_downloader
 # CloneHeroWebmDownloader Fuzzy v2
 
 A Windows-friendly Python tool for building `video.webm` files for Clone Hero song folders using fuzzy YouTube matching and optional audio auto-alignment.
