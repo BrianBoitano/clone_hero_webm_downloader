@@ -508,6 +508,7 @@ py -c "import numpy, scipy; print('numpy/scipy ok')"
 ```powershell
 python CloneHeroWebmDownloader_fuzzy_v2.py "\\10.0.0.115\Vault\Clone Hero\01_songs" --search-count 5 --overwrite --auto-align
 ```
+Or double click the BAT file and follow the onscreen prompts. Easy Peasy. 
 
 ---
 
